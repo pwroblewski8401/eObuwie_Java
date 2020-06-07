@@ -43,7 +43,7 @@ public class EobuwieLoginTests {
     @Test(enabled = true)
     public void validSignUpTest() {
         signUpPage = homePage.gotoSignUpPage();
-        accountPage = signUpPage.fillForm("John","Doe","Johnnn.doeee@wp.pl", "Password!");
+        accountPage = signUpPage.fillForm("John","Doe","Johnsssnn.doeee@wp.pl", "Password!");
         utils.takeScreenShot("test_singUpValidData");
         Assert.assertTrue(accountPage.getAccountHeaderText().contains("John"));
     }
@@ -61,7 +61,6 @@ public class EobuwieLoginTests {
     public void logoutTest(){
         logoutPage = accountPage.logout();
         utils.takeScreenShot("test_logout");
-        Reporter.log(String.format("Info form page: %s. Expected: Wylogowywanie zakończone", logoutPage.getLogoutInfo()), true);
         Assert.assertTrue(logoutPage.getLogoutInfo().contains("Wylogowywanie zakończone"));
 
     }

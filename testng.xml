@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="LoginSuite" verbose="1">
-    <test name="Eobuwie SignUp Test" preserve-order="true" enabled="false">
+    <test name="EobuwieTests" preserve-order="true" enabled="false">
         <classes>
             <class name="EobuwieLoginTests">
                 <methods>
@@ -9,7 +9,7 @@
             </class>
         </classes>
     </test>
-    <test name="Eobuwie Login Test" preserve-order="true" enabled="true">
+    <test name="Eobuwie Login Test" preserve-order="true" enabled="false">
         <classes>
             <class name="EobuwieLoginTests">
                 <methods>
@@ -17,6 +17,25 @@
                     <parameter name="pass" value="Password!" />
                     <include name="validLoginTest"/>
                     <include name="logoutTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Eobuwie Search Tests" preserve-order="true" enabled="false">
+        <classes>
+            <class name="EobuwieSearchTests">
+                <methods>
+                    <include name="simpleSearchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Eobuwie Specify search" preserve-order="true" enabled="true">
+        <classes>
+            <class name="EobuwieSearchTests">
+                <methods>
+                    <parameter name="productID" value="0000201154120"/>
+                    <include name="specifySearch"/>
                 </methods>
             </class>
         </classes>

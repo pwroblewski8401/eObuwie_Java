@@ -17,6 +17,8 @@ public class HomePage {
     private WebElement btnSignUp;
     @FindBy(partialLinkText = "Zalog")
     private WebElement loginButton;
+    @FindBy(xpath = "//div[@class='header-content__search-wrapper']//input[@placeholder='Szukaj']")
+    private WebElement searchInput;
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -38,5 +40,12 @@ public class HomePage {
     public LoginPage gotoLoginPage(){
         loginButton.click();
         return new LoginPage(driver);
+    }
+
+    public SearchPage fillSearchInput(String search){
+        searchInput.sendKeys(search);
+        searchInput.submit();
+        return new SearchPage(driver);
+
     }
 }
