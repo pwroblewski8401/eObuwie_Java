@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="" />
+    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename),">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LogoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pop/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Paweł Wróblewski" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d03IdpOAEGjoRbejapmSNPEfGs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +45,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/data" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java_projects\Java_eObuwie_project\src\test\java\data" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,5 +65,15 @@
       <updated>1591548104228</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename)," />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename)," />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="649" y="24" key="CommitChangelistDialog2" timestamp="1591556527159">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="649" y="24" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591556527159" />
   </component>
 </project>

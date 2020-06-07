@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite" verbose="1">
+    <test name="Eobuwie SignUp Test" preserve-order="true" enabled="false">
+        <classes>
+            <class name="EobuwieLoginTests">
+                <methods>
+                    <include name="validSignUpTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Eobuwie Login Test" preserve-order="true" enabled="true">
+        <classes>
+            <class name="EobuwieLoginTests">
+                <methods>
+                    <parameter name="email" value="John.doe@wp.pl" />
+                    <parameter name="pass" value="Password!" />
+                    <include name="validLoginTest"/>
+                    <include name="logoutTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
