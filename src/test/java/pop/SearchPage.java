@@ -35,4 +35,9 @@ public class SearchPage {
             return null;
         }
     }
+
+    public ProductPage selectSpecifyProduct(int index){
+        searchList.get(index).click();
+        return new ProductPage(driver);
+    }
 }

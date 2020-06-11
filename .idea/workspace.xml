@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename),">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/LogoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/SignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="Added empty folders for project structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/EobuwieBasketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pop/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pop/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/data" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,16 +62,116 @@
       <option name="presentableId" value="Default" />
       <updated>1591548104228</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename),">
+      <created>1591556621016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591556621016</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added empty folders for project structure">
+      <created>1591557203202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591557203202</updated>
+    </task>
+    <task id="LOCAL-00003" summary="And another .keep file for Artifact folder">
+      <created>1591557291422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591557291422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change: .gitignore">
+      <created>1591557506456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591557506456</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added: &#10;1. Tests:&#10;1.1 simple search - check products count on list,&#10;1.2 specify search for the product wit productID (only one product, ID provided via &lt;parameters&gt;">
+      <created>1591560640657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591560640657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename)," />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: &#10;1. project structure,&#10;2. tests:&#10;2.1 singUp for new user,&#10;2.2 login on existing data with tdd with parameters in testng file,&#10;2.3 logout test,&#10;3. test ng has now two test - signUp ald singIn / logout,&#10;4. page class:&#10;4.1 AccountPage,&#10;4.2 HomePage,&#10;4.3 LoginPage,&#10;4.4 LogoutPage,&#10;4.5 SignUpPage,&#10;5. utils - now screenshot can be took by utils.takeScreenShot(filename)," />
+    <MESSAGE value="Added empty folders for project structure" />
+    <MESSAGE value="And another .keep file for Artifact folder" />
+    <MESSAGE value="Change: .gitignore" />
+    <MESSAGE value="Added: &#10;1. Tests:&#10;1.1 simple search - check products count on list,&#10;1.2 specify search for the product wit productID (only one product, ID provided via &lt;parameters&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: &#10;1. Tests:&#10;1.1 simple search - check products count on list,&#10;1.2 specify search for the product wit productID (only one product, ID provided via &lt;parameters&gt;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="649" y="24" key="CommitChangelistDialog2" timestamp="1591556527159">
+    <state x="2032" y="22" key="#Project_Structure" timestamp="1591556932785">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2032" y="22" key="#Project_Structure/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591556932785" />
+    <state x="2211" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591556947988">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2211" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591556947988" />
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1591560639602">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="649" y="24" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591556527159" />
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591560639602" />
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591560644456">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591560644456" />
+    <state x="2086" y="-21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591560317265">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2086" y="-21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591560317264" />
+    <state x="0" y="0" width="1244" height="867" maximized="true" key="dock-window-1" timestamp="1591557755720">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" width="1244" height="867" maximized="true" key="dock-window-1/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591557755720" />
+    <state x="2103" y="76" width="672" height="678" key="search.everywhere.popup" timestamp="1591906416206">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2103" y="76" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591906416206" />
   </component>
 </project>

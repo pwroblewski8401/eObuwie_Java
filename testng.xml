@@ -30,12 +30,22 @@
             </class>
         </classes>
     </test>
-    <test name="Eobuwie Specify search" preserve-order="true" enabled="true">
+    <test name="Eobuwie Specify search" preserve-order="true" enabled="false">
         <classes>
             <class name="EobuwieSearchTests">
                 <methods>
                     <parameter name="productID" value="0000201154120"/>
                     <include name="specifySearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Eobuwie basket test" preserve-order="true" enabled="true">
+        <classes>
+            <class name="EobuwieBasketTest">
+                <methods>
+                    <parameter name="fileName" value="./src/test/java/data/testfile.txt" />
+                    <include name="addProductsToBasket" />
                 </methods>
             </class>
         </classes>
