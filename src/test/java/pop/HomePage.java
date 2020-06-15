@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
+import javax.xml.xpath.XPath;
+
 public class HomePage {
 
     private WebDriver driver;
@@ -19,6 +21,11 @@ public class HomePage {
     private WebElement loginButton;
     @FindBy(xpath = "//div[@class='header-content__search-wrapper']//input[@placeholder='Szukaj']")
     private WebElement searchInput;
+    @FindBy(className = "header-cart-button__text")
+    private WebElement basketButton;
+    @FindBy(xpath = "//a[contains(@class,'e-button--type-transparent')]")
+    private WebElement seeBasket;
+
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -47,5 +54,11 @@ public class HomePage {
         searchInput.submit();
         return new SearchPage(driver);
 
+    }
+
+    public BasketPage gotoBasket(){
+        basketButton.click();
+        seeBasket.click();
+        return new BasketPage(driver);
     }
 }
