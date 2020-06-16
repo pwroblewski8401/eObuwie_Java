@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
-import javax.xml.xpath.XPath;
 import java.util.List;
 
 public class ProductPage {
@@ -36,6 +35,14 @@ public class ProductPage {
 
     @FindBy(className = "product-left__name-second")
     private WebElement productName;
+
+    @FindBys({
+            @FindBy(xpath = "//div[@class='product-details']//ul/li")
+    })
+    List<WebElement> productInformation;
+
+    @FindBy(xpath = "//div[@class=\"product-right__price-normal\"]/span")
+    private WebElement price;
 
 
     public ProductPage(WebDriver driver){
@@ -83,5 +90,25 @@ public class ProductPage {
         return productName.getText();
     }
 
+    public String getInformationByKey(String key){
+        for(WebElement element : productInformation) {
+            String foundKey = element.findElement(By.xpath("div[@class='label']")).getText();
+            if ((element.findElement(By.xpath("div[@class='label']")).getText()).contains(key) && key.contains("Producent")){
+                String data = element.findElement(By.xpath("div[@class='data']/a")).getText();
+                return (data);
+            }
+            else if ((element.findElement(By.xpath("div[@class='label']")).getText()).contains(key)) {
+                String data = element.findElement(By.xpath("div[@class='data']")).getText();
+                return (data);
+            }
+        }
+        return null;
+    }
 
+    public String getPrice(){
+        String p = price.getText();
+        p = p.substring(0, p.length() -2);
+        p = p.replace(",","").replace(" ","");
+        return p;
+    }
 }
