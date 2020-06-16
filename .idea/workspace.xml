@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="Added empty folders for project structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/testfile_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pop/BasketPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EobuwieBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EobuwieBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pop/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,14 +148,18 @@
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state x="2211" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591556947988" />
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1591909171215">
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1592339273932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591909171215" />
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592339273932" />
     <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591909191887">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591909191887" />
+    <state x="2136" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592338163108">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2136" y="188" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592338163108" />
     <state x="2086" y="-21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591560317265">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>

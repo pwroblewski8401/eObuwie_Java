@@ -1,3 +1,4 @@
+import net.bytebuddy.utility.RandomString;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 import pop.*;
 import utils.Utils;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class EobuwieLoginTests {
@@ -43,7 +45,8 @@ public class EobuwieLoginTests {
     @Test(enabled = true)
     public void validSignUpTest() {
         signUpPage = homePage.gotoSignUpPage();
-        accountPage = signUpPage.fillForm("John","Doe","Johnsssnn.doeee@wp.pl", "Password!");
+        String rnd = RandomString.make(7);
+        accountPage = signUpPage.fillForm("John","Doe",String.format("John.Doe@%s.pl", rnd), "Password!");
         utils.takeScreenShot("test_singUpValidData");
         Assert.assertTrue(accountPage.getAccountHeaderText().contains("John"));
     }
