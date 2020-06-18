@@ -55,7 +55,7 @@
         <classes>
             <class name="ProductTest">
                 <methods>
-                    <parameter name="CSVFile" value="./src/test/java/data/data.csv" />
+                    <parameter name="CSVFile" value="./src/test/java/data/data_simple.csv" />
                     <include name="productCartTest" />
                 </methods>
             </class>

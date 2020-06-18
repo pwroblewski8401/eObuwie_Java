@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class ProductPage {
     private WebDriver driver;
@@ -41,7 +42,6 @@ public class ProductPage {
     })
     List<WebElement> productInformation;
 
-    @FindBy(xpath = "//div[@class=\"product-right__price-normal\"]/span")
     private WebElement price;
 
 
@@ -105,10 +105,19 @@ public class ProductPage {
         return null;
     }
 
+    public WebElement getPropperPrice(){
+        try{
+            return(price = driver.findElement(By.xpath("//div[@class='product-right__price-normal']/span")));
+        } catch (Exception ex){
+            return (driver.findElement(By.xpath("//div[@class='product-right__price-discounted']")));
+        }
+    }
+
     public String getPrice(){
+        price = getPropperPrice();
         String p = price.getText();
-        p = p.substring(0, p.length() -2);
-        p = p.replace(",","").replace(" ","");
+        p = p.substring(0, p.length() - 2);
+        p = p.replace(",", "").replace(" ", "");
         return p;
     }
 }

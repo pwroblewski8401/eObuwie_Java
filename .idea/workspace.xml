@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="Changed: changed signUp test to use random string to create e-mail domain">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/data.csv" afterDir="false" />
+    <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/data_simple.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pop/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
@@ -12,6 +11,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java_eObuwie_project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592339340905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added:&#10;1. new methods in ProductPage.java,&#10;2. ProductTest.java to tst data on product page,&#10;3. data.csv - data for ProductTest">
+      <created>1592345118249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592345118249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +159,8 @@
     <MESSAGE value="Change: .gitignore" />
     <MESSAGE value="Added: &#10;1. Tests:&#10;1.1 simple search - check products count on list,&#10;1.2 specify search for the product wit productID (only one product, ID provided via &lt;parameters&gt;" />
     <MESSAGE value="Changed: changed signUp test to use random string to create e-mail domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed: changed signUp test to use random string to create e-mail domain" />
+    <MESSAGE value="Added:&#10;1. new methods in ProductPage.java,&#10;2. ProductTest.java to tst data on product page,&#10;3. data.csv - data for ProductTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;1. new methods in ProductPage.java,&#10;2. ProductTest.java to tst data on product page,&#10;3. data.csv - data for ProductTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2032" y="22" key="#Project_Structure" timestamp="1591556932785">
@@ -165,14 +175,14 @@
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state x="2236" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592339849709" />
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1592343830173">
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1592345117148">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592343830173" />
-    <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592339344709">
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592345117148" />
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592345148268">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
-    <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592339344709" />
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592345148268" />
     <state x="2136" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592338163108">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
