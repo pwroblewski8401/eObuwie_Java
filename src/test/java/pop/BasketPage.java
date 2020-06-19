@@ -1,5 +1,6 @@
 package pop;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +23,9 @@ public class BasketPage {
     })
     private List<WebElement> productInBasketNames;
 
+    @FindBy(className = "cart-empty__title")
+    private WebElement h3basketInfo;
+
 
     public  BasketPage(WebDriver driver){
         this.driver = driver;
@@ -29,7 +33,11 @@ public class BasketPage {
     }
 
     public List<WebElement> getProductList(){
+        try {
         return productsInBasket;
+        } catch (Exception ex){
+            return null;
+        }
     }
 
     public List<String> getProductNames(){
@@ -40,6 +48,17 @@ public class BasketPage {
 
         return productsNames;
     }
+
+    public BasketPage removeProduct(WebElement element){
+        WebElement removeBtn = element.findElement(By.xpath("div[@class='cart-item__actions']/a[@class='cart-item__remove']"));
+        removeBtn.click();
+        return new BasketPage(driver);
+    }
+
+    public String getH3Text(){
+        return h3basketInfo.getText();
+    }
+
 
 
 

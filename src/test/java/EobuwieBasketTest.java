@@ -1,4 +1,5 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -79,9 +80,19 @@ public class EobuwieBasketTest {
             }
             if(pc == false){missingProductFlag = true;}
         }
-
         Assert.assertFalse(missingProductFlag);
+    }
 
-
+    @Test(dependsOnMethods = {"addProductsToBasket"})
+    public void cleanBasketTest() throws InterruptedException {
+        List<WebElement> elementsInBasket = basketPage.getProductList();
+        while (elementsInBasket.size() != 0){
+            basketPage = basketPage.removeProduct(elementsInBasket.get(0));
+            elementsInBasket = basketPage.getProductList();
+            if(elementsInBasket == null){
+                break;
+            }
+        }
+        Assert.assertTrue(basketPage.getH3Text().contains("Koszyk jest pusty"));
     }
 }

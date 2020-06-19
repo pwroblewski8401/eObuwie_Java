@@ -51,12 +51,23 @@
             </class>
         </classes>
     </test>
-    <test name="Product page test " preserve-order="true" enabled="true">
+    <test name="Product page test " preserve-order="true" enabled="false">
         <classes>
             <class name="ProductTest">
                 <methods>
                     <parameter name="CSVFile" value="./src/test/java/data/data_simple.csv" />
                     <include name="productCartTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Eobuwie basket test" preserve-order="true" enabled="true">
+        <classes>
+            <class name="EobuwieBasketTest">
+                <methods>
+                    <parameter name="fileName_2" value="./src/test/java/data/testfile_2.txt" />
+                    <include name="addProductsToBasket" />
+                    <include name="cleanBasketTest"/>
                 </methods>
             </class>
         </classes>
