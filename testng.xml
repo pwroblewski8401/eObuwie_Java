@@ -21,6 +21,17 @@
             </class>
         </classes>
     </test>
+    <test name="Eobuwie Invalid Login Test" preserve-order="true" enabled="true">
+        <classes>
+            <class name="EobuwieLoginTests">
+                <methods>
+                    <parameter name="email" value="John.doe_wrong_email@wp.pl" />
+                    <parameter name="pass" value="HasloJakiesTam" />
+                    <include name="invalidLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
     <test name="Eobuwie Search Tests" preserve-order="true" enabled="false">
         <classes>
             <class name="EobuwieSearchTests">
@@ -61,7 +72,7 @@
             </class>
         </classes>
     </test>
-    <test name="Eobuwie basket test" preserve-order="true" enabled="true">
+    <test name="Eobuwie basket test" preserve-order="true" enabled="false">
         <classes>
             <class name="EobuwieBasketTest">
                 <methods>

@@ -1,9 +1,7 @@
 import net.bytebuddy.utility.RandomString;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -11,7 +9,6 @@ import org.testng.annotations.Test;
 import pop.*;
 import utils.Utils;
 
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class EobuwieLoginTests {
@@ -55,9 +52,19 @@ public class EobuwieLoginTests {
     @Parameters({"email", "pass"})
     public void validLoginTest(String email, String pass){
         loginPage = homePage.gotoLoginPage();
-        accountPage = loginPage.fillLoginForm(email, pass);
+        loginPage.fillLoginForm(email, pass);
+        accountPage = loginPage.submitBtnClick();
         utils.takeScreenShot("test_singInValidData");
         Assert.assertTrue(accountPage.getAccountHeaderText().contains("John"));
+    }
+
+    @Test
+    @Parameters({"email","pass"})
+    public void invalidLoginTest(String email, String pass){
+        loginPage = homePage.gotoLoginPage();
+        loginPage.fillLoginForm(email, pass);
+        String returninfo = loginPage.submitWrongDataBtnClick();
+        Assert.assertTrue(returninfo.contains("Nieprawidłowa nazwa użytkownika lub hasło"));
     }
 
     @Test(dependsOnMethods = "validLoginTest")

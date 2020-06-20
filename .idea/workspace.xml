@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="694a99e5-c4b0-43d5-bd94-87c4e2ac798c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EobuwieBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EobuwieBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pop/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EobuwieLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EobuwieSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EobuwieSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pop/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pop/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592511494403</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added: &#10;1. New test in EobuwieBasketTest.java - cleaning basket. Test require other test (adding to basket multiple produckt EobuwieBasketTest.addProductsToBasket) to run properly.">
+      <created>1592598174774</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592598174774</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +194,8 @@
     <MESSAGE value="Changed: changed signUp test to use random string to create e-mail domain" />
     <MESSAGE value="Added:&#10;1. new methods in ProductPage.java,&#10;2. ProductTest.java to tst data on product page,&#10;3. data.csv - data for ProductTest" />
     <MESSAGE value="Fix: &#10;1. fixed method to get proper price, including discounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: &#10;1. fixed method to get proper price, including discounts" />
+    <MESSAGE value="Added: &#10;1. New test in EobuwieBasketTest.java - cleaning basket. Test require other test (adding to basket multiple produckt EobuwieBasketTest.addProductsToBasket) to run properly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: &#10;1. New test in EobuwieBasketTest.java - cleaning basket. Test require other test (adding to basket multiple produckt EobuwieBasketTest.addProductsToBasket) to run properly." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2032" y="22" key="#Project_Structure" timestamp="1591556932785">
@@ -201,10 +210,14 @@
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state x="2236" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592339849709" />
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1592511492604">
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2" timestamp="1592598173472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592511492604" />
+    <state x="649" y="0" width="820" height="860" key="CommitChangelistDialog2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592598173472" />
+    <state x="2220" y="119" key="FileChooserDialogImpl" timestamp="1592637362165">
+      <screen x="1600" y="-141" width="1680" height="1010" />
+    </state>
+    <state x="2220" y="119" key="FileChooserDialogImpl/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592637362165" />
     <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1592595963684">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
@@ -221,15 +234,15 @@
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592595963684" />
-    <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592511500852">
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592598177934">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
-    <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592511500852" />
-    <state x="510" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1592590922394">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2032" y="97" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592598177934" />
+    <state x="2136" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592634884817">
+      <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
     <state x="510" y="280" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.-141.1680.1010@0.0.1600.860" timestamp="1592590922394" />
-    <state x="2136" y="188" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592338163108" />
+    <state x="2136" y="188" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1592634884817" />
     <state x="2086" y="-21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591560317265">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>
@@ -238,6 +251,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="0" width="1244" height="867" maximized="true" key="dock-window-1/0.0.1600.860/1600.-141.1680.1010@1600.-141.1680.1010" timestamp="1591557755720" />
+    <state x="182" y="125" key="new project wizard" timestamp="1592638181787">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="125" key="new project wizard/0.0.1600.860/1600.-141.1680.1010@0.0.1600.860" timestamp="1592638181787" />
     <state x="2103" y="76" width="672" height="678" key="search.everywhere.popup" timestamp="1591906416206">
       <screen x="1600" y="-141" width="1680" height="1010" />
     </state>

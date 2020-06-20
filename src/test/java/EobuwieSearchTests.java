@@ -33,6 +33,8 @@ public class EobuwieSearchTests {
         homePage.skipAgreement();
     }
 
+
+
     @AfterClass
     public void afterClass(){
         driver.quit();
